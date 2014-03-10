@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:paddingBottom="@dimen/main_layout_padding"
+    android:paddingLeft="@dimen/main_layout_padding"
+    android:paddingRight="@dimen/main_layout_padding"
+    android:paddingTop="@dimen/main_layout_padding"
+    tools:context=".Main2Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="0dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/imageViewScene"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/main_layout_padding"
+                android:contentDescription="@string/scene"
+                android:src="@drawable/main_home_scene" />
+
+            <ImageView
+                android:id="@+id/imageViewArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_home_area"
+                android:contentDescription="@string/area" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_layout_padding"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/imageViewDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/main_layout_padding"
+                android:contentDescription="@string/device"
+                android:src="@drawable/main_home_device" />
+
+            <ImageView
+                android:id="@+id/imageViewMonitor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_home_monitor"
+                android:contentDescription="@string/monitor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/imageViewSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/main_layout_padding"
+                android:contentDescription="@string/system"
+                android:src="@drawable/main_home_system" />
+
+            <ImageView
+                android:id="@+id/imageViewMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_home_more"
+                android:contentDescription="@string/more" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

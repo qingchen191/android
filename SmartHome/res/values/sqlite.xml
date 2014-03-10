@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 数据库版本 -->
+
+    <string name="database_version">7</string>
+
+    <!-- 数据库名称 -->
+
+    <string name="database_name">smarthome.db</string>
+
+    <!-- 数据表对应实列 -->
+
+    <string-array name="model_beans">
+        <item>cn.smarthome.sap.model.AreaInfo</item>
+        <item>cn.smarthome.sap.model.DeviceDetailInfo</item>
+        <item>cn.smarthome.sap.model.DeviceKindInfo</item>
+        <item>cn.smarthome.sap.model.DeviceTypeInfo</item>
+        <item>cn.smarthome.sap.model.UserInfo</item>
+        <item>cn.smarthome.sap.model.LogInfo</item>
+    </string-array>
+
+</resources>

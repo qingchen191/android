@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<FrameLayout  
+        android:id="@+id/area_view_content"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:layout_weight="1" />  
+  
+    <RadioGroup  
+        android:id="@+id/rg_area_tab"  
+        android:orientation="horizontal"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  >  
+  
+        <RadioButton  
+            style="@style/area_tab"  
+            android:text="微博" />  
+  
+        <RadioButton  
+            style="@style/area_tab"  
+            android:text="\@我" />  
+  
+        <RadioButton  
+            style="@style/area_tab"  
+            android:text="评论" />  
+  
+        <RadioButton  
+            style="@style/area_tab"  
+            android:text="我的" />  
+  
+        <RadioButton  
+            style="@style/area_tab"  
+            android:text="全站" />  
+    </RadioGroup>  
+</LinearLayout>
